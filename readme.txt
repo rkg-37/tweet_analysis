@@ -21,7 +21,7 @@ The course is divided into below modules:
 *   Feature Extraction 
 *   Model Building
 
-NOTE : python 3.6 is used
+NOTE : python > 3
 
 
 Data
