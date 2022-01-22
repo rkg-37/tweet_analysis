@@ -1,0 +1,14 @@
+1. command to create a virtual env using virtuialenv package
+        virtualenv -p python3 envname
+
+2. command to create a virtual env using venv include system installed packages
+        python -m  venv envname --system-site-packages
+        virtualenv --system-site-packages [env_name] (recommended)
+
+3. command to create virtal env normal
+        python -m venv [env_name]
+
+4. command to activate any env 
+        my-env\Scripts\activate.bat
+
+        

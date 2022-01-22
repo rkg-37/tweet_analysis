@@ -1,0 +1,9 @@
+Installation 
+=============
+    Natural language Toolkit (nltk)
+    pip install nltk
+    https://www.analyticsvidhya.com/blog/2021/07/getting-started-with-nlp-using-nltk-library/
+    
+    SEABORN (seaborn)
+    pip install seaborn
+    https://seaborn.pydata.org/introduction.html

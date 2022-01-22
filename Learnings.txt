@@ -1,0 +1,66 @@
+NATURAL LANGUAGE PROCESSING (NLP)
+=================================
+
+Natural Language Processing is an interdisciplinary field of 
+Artificial Intelligence. It is a technique used to teach a 
+computer to understand Human languages and also interpret 
+just like us. It is the art of extracting information, hidden
+insights from unstructured text. It is a sophisticated field
+that makes computers process text data on a large scale.
+
+Applications of NLP:
+=====================
+
+Natural Language Processing is powering many industries with 
+its advanced Deep Learning Algorithms like transformers, 
+language models(GPT-3), RNNs, LSTMs, and many more.
+
+NLP is used in,
+
+*    Sentimental Analysis
+*    Chatbots
+*    Virtual Assistants
+*    Speech Recognition
+*    Machine Translation
+*    Advertise Matching
+*    Information Extraction
+*    Grammatical error detection
+*    Fake news detection
+*    Text Summarize
+
+ Libraries for NLP
+====================
+
+Here are some of the libraries for 
+leveraging the power of Natural Language Processing.
+
+    Natural Language Toolkit (NLTK)
+    spaCY
+    Gensim
+    Standford CoreNLP
+    TextBlob
+
+Installation
+=============
+    pip install nltk
+
+
+===========================================================================================
+
+SEABORN
+========
+
+Seaborn is a library for making statistical graphics in Python. 
+It builds on top of matplotlib and integrates closely with pandas 
+data structures.
+
+Seaborn helps you explore and understand your data. Its plotting 
+functions operate on dataframes and arrays containing whole
+datasets and internally perform the necessary semantic mapping 
+and statistical aggregation to produce informative plots.
+Its dataset-oriented, declarative API lets you focus on what 
+the different elements of your plots mean, rather than on the
+details of how to draw them.
+
+https://seaborn.pydata.org/introduction.html
+
