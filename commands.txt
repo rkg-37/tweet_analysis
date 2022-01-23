@@ -3,7 +3,7 @@
 
 2. command to create a virtual env using venv include system installed packages
         python -m  venv envname --system-site-packages
-        virtualenv --system-site-packages [env_name] (recommended)
+        virtualenv --system-site-packages my_env (recommended)
 
 3. command to create virtal env normal
         python -m venv [env_name]

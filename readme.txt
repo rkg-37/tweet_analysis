@@ -167,3 +167,24 @@ natural language Processing link/ documentation :
 https://pypi.org/project/nltk/
 
 
+Story generation and Visulaization 
+====================================
+
+WORDCLOUD
+==========
+
+Understanding the common word used in the tweets is by plotting wordcloud.
+
+A wordcloud is a viuslaization where the most frequent words appear
+in larger size and less frequentword appear in smaller sizes.
+
+IF nay issue occur while installing wordcloud 
+------------------------------------------------
+
+ 1. use  pip freeze (pip freeze > requirements.txt)
+ 2. delete the virtual enviornment 
+ 3. create new virtualenv 
+ 4. install wordcloud first (pip install wordcloud)
+ 5. Then install remaining packages using pip install -r <$path>/requirements.txt
+
+
