@@ -188,3 +188,43 @@ IF nay issue occur while installing wordcloud
  5. Then install remaining packages using pip install -r <$path>/requirements.txt
 
 
+Bag-of-words Features
+======================
+
+To analyze the preprocessed data , it need to be converted into features.
+Depending on the usage, text features can be constructed using 
+assorted techniques “Likes”
+
+* Bag-of-Words
+-----------------
+
+Data features are columns in a dataset which we would 
+like to give to our machine learning model as input for training.
+
+* TF-IDF (Term Frequency — Inverse Document Frequency)
+-------------------------------------------------------
+
+This is another method which is based on the frequency method 
+but it is different to the bag-of-words approach in the sense 
+that it takes into account not just the occurrence of a word in 
+a single document (or tweet) but in the entire corpus.
+
+TF-IDF works by penalising the common words by assigning them 
+lower weights while giving importance to words which are 
+rare in the entire corpus but appear in good numbers in few documents.
+
+
+-----TF = (Number of times term t appears in a document)/
+        (Number of terms in the document)
+
+-----IDF = log(N/n), where, N is the number of documents 
+        and n is the number of documents a term t has appeared in.
+
+-----TF-IDF = TF*IDF
+
+* Word Embeddings / Word2Vec Feature
+-------------------
+
+
+
+

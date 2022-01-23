@@ -7,3 +7,12 @@ Installation
     SEABORN (seaborn)
     pip install seaborn
     https://seaborn.pydata.org/introduction.html
+
+    gensim
+    pip install gensim
+    Gensim is a Python library for topic modelling, 
+    document indexing and similarity retrieval with 
+    large corpora. Target audience is the natural language 
+    processing (NLP) and information retrieval (IR) community.
+
+    https://pypi.org/project/gensim/
