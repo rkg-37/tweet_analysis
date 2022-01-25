@@ -260,5 +260,36 @@ https://code.google.com/archive/p/word2vec/
 https://code.google.com/archive/
 
 
+Since our data contains tweets and not just words, we’ll have to 
+figure out a way to use the word vectors from word2vec model to 
+create vector representation for an entire tweet. There is a simple
+solution to this problem, we can simply take mean of all the word
+vectors present in the tweet. The length of the resultant vector
+will be the same, i.e. 200. We will repeat the same process for
+all the tweets in our data and obtain their vectors. Now we have
+200 word2vec features for our data.
+
+
+MODELLING
+===========
+
+We are now done with all the pre-modeling stages required 
+to get the data in the proper form and shape. We will be 
+building models on the datasets with different feature 
+sets prepared in the earlier sections — 
+    Bag-of-Words, 
+    TF-IDF, 
+    word2vec vectors,
+    doc2vec vectors. 
+
+We will use the following algorithms to build models:
+    Logistic Regression
+    Support Vector Machine    
+    RandomForest    
+    XGBoost
+
+Logistic Regression
+====================
+
 
 
